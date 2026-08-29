@@ -1,0 +1,4 @@
+-keep class com.clipvault.app.data.** { *; }
+-keep class * extends androidx.room.RoomDatabase
+-keepattributes Signature
+-keepattributes *Annotation*
